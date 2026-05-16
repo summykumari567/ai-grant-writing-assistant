@@ -1,22 +1,21 @@
 # AI Grant Writing Assistant
 
-AI-powered grant proposal platform that helps users discover funding opportunities, generate professional grant proposals, and improve submission quality using AI assistance.
+AI-powered grant proposal platform that helps users generate grant proposals, research funding opportunities, and streamline the grant writing process.
 
 ---
 
-## Features
+# Features
 
-- AI-based proposal generation
-- Grant opportunity search
-- Clean and modern UI
+- AI-assisted proposal generation
+- Funding opportunity research
+- Clean and responsive UI
+- Project idea input form
 - Proposal drafting workflow
-- Funding research assistance
-- Next.js application structure
-- Responsive design
+- Modern Next.js application structure
 
 ---
 
-## Tech Stack
+# Tech Stack
 
 - Next.js 14
 - React
@@ -26,22 +25,19 @@ AI-powered grant proposal platform that helps users discover funding opportuniti
 
 ---
 
-## Project Structure
+# Project Structure
 
 ```bash
 ai-grant-writing-assistant/
 │
 ├── app/
-│   ├── page.tsx
+│   ├── globals.css
 │   ├── layout.tsx
-│   └── globals.css
+│   └── page.tsx
 │
 ├── components/
 │   ├── GrantForm.tsx
 │   └── ProposalGenerator.tsx
-│
-├── lib/
-│   └── grants_api.ts
 │
 ├── public/
 │   └── dashboard.png
@@ -55,7 +51,7 @@ ai-grant-writing-assistant/
 
 ---
 
-## Installation
+# Installation
 
 Clone the repository:
 
@@ -81,7 +77,9 @@ Run the development server:
 npm run dev
 ```
 
-Open in browser:
+---
+
+# Open in Browser
 
 ```bash
 http://localhost:3000
@@ -89,37 +87,34 @@ http://localhost:3000
 
 ---
 
-## Main Components
+# Main Components
 
-### GrantForm
+## GrantForm
 Allows users to enter project ideas and search for grant opportunities.
 
-### ProposalGenerator
-Generates AI-assisted grant proposal drafts.
-
-### grants_api
-Handles funding and grant-related API functionality.
+## ProposalGenerator
+Provides AI-assisted proposal drafting functionality.
 
 ---
 
-## Future Improvements
+# Future Improvements
 
+- Grants.gov API integration
 - AI proposal scoring
 - PDF export support
 - User authentication
 - Proposal history
-- Grants.gov API integration
 - Reviewer feedback analysis
 - Multi-language support
 
 ---
 
-## License
+# License
 
 This project is licensed under the MIT License.
 
 ---
 
-## Author
+# Author
 
 Developed by Summy
